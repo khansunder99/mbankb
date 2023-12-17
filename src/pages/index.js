@@ -19,8 +19,11 @@ export default function Home() {
           <a className="text-zinc-500 cursor-pointer text-sm hover:text-emerald-400 2xl:block xl:block lg:block md:block hidden">
             Таны бизнест
           </a>
-          <a className="text-zinc-500 cursor-pointer text-sm hover:text-emerald-400 2xl:block xl:block lg:block md:block hidden">
-            Бид
+          <a
+            href="/finance"
+            className="text-zinc-500 cursor-pointer text-sm hover:text-emerald-400 2xl:block xl:block lg:block md:block hidden"
+          >
+            Санхүү
           </a>
         </div>
         <div className="flex flex-row items-center">
@@ -43,7 +46,7 @@ export default function Home() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6 stroke-white 2xl:hidden xl:hidden lg:hidden md:hidden block"
+            class="w-6 h-6 stroke-white 2xl:hidden xl:hidden lg:hidden md:hidden block ml-6"
           >
             <path
               stroke-linecap="round"
@@ -172,14 +175,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-zinc-800 flex flex-col pt-24 2xl:pl-80 xl:pl-60 lg:pl-44 md:pl-20 sm:pl-12 pl-8">
+      <div className="bg-zinc-800 flex flex-col pt-24 2xl:px-80 xl:px-60 lg:px-44 md:px-20 sm:px-12 px-8">
         <div className="flex 2xl:flex-row xl:flex-row flex-col">
-          <div className="flex flex-row">
+          <div className="2xl:flex xl:flex lg:flex md:flex sm:flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-row grid grid-cols-2">
             <img
               src="https://m-bank.mn/icons/footer/ic_m_small.png"
-              className="w-8 h-8"
+              className="w-8 h-8 2xl:block xl:block lg:block md:block sm:block hidden"
             ></img>
-            <div className="flex flex-col ml-8">
+            <div className="flex flex-col 2xl:ml-8 xl:ml-8 lg:ml-8 md:ml-8 sm:ml-8 ml-0">
               <p className="text-zinc-500 font-bold">Танд</p>
               <p className="text-white mt-6 text-sm cursor-pointer">
                 Харилцах данс
@@ -191,7 +194,7 @@ export default function Home() {
                 Шилжүүлэг
               </p>
             </div>
-            <div className="flex flex-col 2xl:ml-20 xl:ml-20 lg:ml-36 md:ml-24 sm:ml-12 ml-8">
+            <div className="flex flex-col 2xl:ml-20 xl:ml-20 lg:ml-36 md:ml-24 sm:ml-12 ml-0">
               <p className="text-zinc-500 font-bold">Таны бизнест</p>
               <p className="text-white mt-6 text-sm cursor-pointer">
                 Харилцах данс
@@ -206,7 +209,7 @@ export default function Home() {
                 Овердрафт
               </p>
             </div>
-            <div className="flex flex-col 2xl:ml-20 xl:ml-20 lg:ml-36 md:ml-24 sm:ml-12 ml-8">
+            <div className="flex flex-col 2xl:ml-20 xl:ml-20 lg:ml-36 md:ml-24 sm:ml-12 ml-0 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-16 2xl:col-span-0 xl:col-span-0 lg:col-span-0 md:col-span-0 sm:col-span-0 col-span-2">
               <p className="text-zinc-500 font-bold">Холбоо барих</p>
               <p className="text-white mt-6 text-sm cursor-pointer">
                 Монгол Улс, Улаанбаатар хот-14241,
