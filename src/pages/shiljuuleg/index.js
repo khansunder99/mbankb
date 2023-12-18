@@ -2,6 +2,7 @@
 import { useRouter } from "next/router";
 
 export default function shiljuuleg() {
+  const router = useRouter();
 
   return (
     <div>
