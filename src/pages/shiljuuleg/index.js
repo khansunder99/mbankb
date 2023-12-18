@@ -1,4 +1,8 @@
-export default function Home() {
+
+import { useRouter } from "next/router";
+
+export default function shiljuuleg() {
+
   return (
     <div>
       <div className="w-screen h-screen flex flex-col bg-white">
