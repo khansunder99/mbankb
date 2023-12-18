@@ -14,7 +14,7 @@ export default function Mhelper() {
               src="https://m-bank.mn/icons/navbar/ic_m_large.png"
             ></img>
           </button>
-          <a className="text-zinc-500 cursor-pointer text-sm hover:text-emerald-400 2xl:block xl:block lg:block md:block hidden">
+          <a className="text-zinc-500 cursor-pointer text-sm hover:text-emerald-400 2xl:block xl:block lg:block md:block hidden" href="/shiljuuleg">
             Танд
           </a>
           <a className="text-zinc-500 cursor-pointer text-sm hover:text-emerald-400 2xl:block xl:block lg:block md:block hidden">
